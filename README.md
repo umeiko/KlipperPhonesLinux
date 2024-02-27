@@ -1,7 +1,8 @@
 # KlipperPhonesLinux
 Building an Klipper Machine Host for a 3D Printer Based on Native Linux System Adapted for Mobile Phones
 让你的旧手机变为高性能Linux系统的Klipper上位机
-
+![wt88047](pictures/1.jpg)
+![wt88047](pictures/2.jpg)
 ## 支持的机型
 - Xiaomi Redmi 2 (wt88047)
 - Xiaomi Redmi 5 Plus (xiaomi-vince)
