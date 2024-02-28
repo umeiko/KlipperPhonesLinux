@@ -1,7 +1,7 @@
 # KlipperPhonesLinux
 [中文文档](./README_CN.md)
 
-Turning your old phones into high-performance Klipper machine host running on Linux!
+Turning your old phones into high-performance Klipper machine host running on Debian Linux!
 ![wt88047](pictures/1.jpg)
 ![wt88047](pictures/2.jpg)
 
@@ -57,13 +57,22 @@ Turning your old phones into high-performance Klipper machine host running on Li
 
 ## Convert Your Phone to DC Power Supply ( PCB )
 
-- Xiaomi Redmi 2 (wt88047)
-- Xiaomi Redmi Note 4 (xiaomi-mido)
-- Xiaomi Redmi 4 Prime(xiaomi-markw)
-- Xiaomi Redmi 4x (xiaomi-santoni)
+- [Xiaomi Redmi 2 (wt88047)](https://github.com/umeiko/KlipperPhonesLinux/tree/main/PCB/Xiaomi_redmi2)
+- [Xiaomi Redmi Note 4x (xiaomi-mido)](https://github.com/umeiko/KlipperPhonesLinux/tree/main/PCB/Xiaomi_redmi_Note4x)
+- [Xiaomi Redmi 4 Prime(xiaomi-markw)](https://github.com/umeiko/KlipperPhonesLinux/tree/main/PCB/Xiaomi_redmi4_Prime)
+- [Xiaomi Note 2](https://github.com/umeiko/KlipperPhonesLinux/tree/main/PCB/Xiaomi_redmi4_Prime)
+
 
 ## Common Issues and Solutions:
-- Enabling and configuring CAN
+- [Enabling and configuring CAN](https://github.com/umeiko/KlipperPhonesLinux/blob/main/Docs/Q%26A/CAN_BUS.md)
 - Error during homing, 'timer too close'
-- `lsusb` shows no reaction
+- [`lsusb` shows no reaction](https://github.com/umeiko/KlipperPhonesLinux/tree/main/PCB)
 - rotate the screen
+- compile your own Linux kernel
+
+## Acknowledgements
+- [project PostmarketOS](https://postmarketos.org/)
+- [Klipper] (https://github.com/Klipper3d/)
+- [KlipperScreen](https://github.com/KlipperScreen/KlipperScreen)
+- [fluidd](https://github.com/fluidd-core/fluidd)
+- [moonraker](https://github.com/Arksine/moonraker)

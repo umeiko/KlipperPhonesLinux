@@ -56,13 +56,22 @@ Building an Klipper Machine Host for a 3D Printer Based on Native Linux System A
 
 ## 将你的手机改装为直流供电（PCB）
 
-- Xiaomi Redmi 2 (wt88047)
-- Xiaomi Redmi Note 4 (xiaomi-mido)
-- Xiaomi Redmi 4 Prime(xiaomi-markw)
-- Xiaomi Redmi 4x (xiaomi-santoni)
+- [Xiaomi Redmi 2 (wt88047)](https://github.com/umeiko/KlipperPhonesLinux/tree/main/PCB/Xiaomi_redmi2)
+- [Xiaomi Redmi Note 4x (xiaomi-mido)](https://github.com/umeiko/KlipperPhonesLinux/tree/main/PCB/Xiaomi_redmi_Note4x)
+- [Xiaomi Redmi 4 Prime(xiaomi-markw)](https://github.com/umeiko/KlipperPhonesLinux/tree/main/PCB/Xiaomi_redmi4_Prime)
+- [Xiaomi Note 2](https://github.com/umeiko/KlipperPhonesLinux/tree/main/PCB/Xiaomi_redmi4_Prime)
 
 ## 常见问题及解决方案：
-- 启用和设置CAN
+- [启用和设置CAN](https://github.com/umeiko/KlipperPhonesLinux/blob/main/Docs/Q%26A/CAN_BUS_CN.md)
 - 我想要旋转屏幕
 - 归零时发生错误`timer too close`
-- `lsusb`没有任何反应
+- [`lsusb`没有任何反应](https://github.com/umeiko/KlipperPhonesLinux/tree/main/PCB)
+- 旋转屏幕
+- 想要自己编译Linux内核
+
+## 感谢
+- [project PostmarketOS](https://postmarketos.org/)
+- [Klipper] (https://github.com/Klipper3d/)
+- [KlipperScreen](https://github.com/KlipperScreen/KlipperScreen)
+- [fluidd](https://github.com/fluidd-core/fluidd)
+- [moonraker](https://github.com/Arksine/moonraker)
