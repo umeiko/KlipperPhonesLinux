@@ -6,7 +6,7 @@ Building an Klipper Machine Host for a 3D Printer Based on Native Linux System A
 ![wt88047](pictures/2.jpg)
 
 ## 支持的机型
-- Xiaomi Redmi 2 (wt88047)
+- Xiaomi Redmi 2 ([wt88047](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_Redmi2))
 - Xiaomi Redmi 5 Plus ([xiaomi-vince](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_msm8953_Phones))
 - Xiaomi Mi 5X ([xiaomi-tissot](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_msm8953_Phones))
 - Xiaomi Mi A1 ([xiaomi-tissot](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_msm8953_Phones))
@@ -21,7 +21,7 @@ Building an Klipper Machine Host for a 3D Printer Based on Native Linux System A
 
 
 ## 刷机方法：
-- [Xiaomi Redmi 2]()
+- [Xiaomi Redmi 2](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_Redmi2)
 - [小米高通625机型](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_msm8953_Phones)
 - [Xiaomi Note2]()
 - [Xiaomi Redmi 4x]()

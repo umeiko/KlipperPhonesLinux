@@ -6,7 +6,7 @@ Turning your old phones into high-performance Klipper machine host running on De
 ![wt88047](pictures/2.jpg)
 
 ## Supported Models
-- Xiaomi Redmi 2 (wt88047)
+- Xiaomi Redmi 2 ([wt88047](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_Redmi2))
 - Xiaomi Redmi 5 Plus ([xiaomi-vince](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_msm8953_Phones))
 - Xiaomi Mi 5X ([xiaomi-tissot](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_msm8953_Phones))
 - Xiaomi Mi A1 ([xiaomi-tissot](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_msm8953_Phones))
@@ -20,7 +20,7 @@ Turning your old phones into high-performance Klipper machine host running on De
 - Xiaomi Note 2 (xiaomi-scorpio)
 
 ## Flashing Instructions:
-- [Xiaomi Redmi 2]()
+- [Xiaomi Redmi 2](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_Redmi2)
 - [Xiaomi Qualcomm 625 Models](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_msm8953_Phones)
 - [Xiaomi Note 2]()
 - [Xiaomi Redmi 4x]()
@@ -72,7 +72,7 @@ Turning your old phones into high-performance Klipper machine host running on De
 
 ## Acknowledgements
 - [PostmarketOS](https://postmarketos.org/)
-- [Klipper] (https://github.com/Klipper3d/)
+- [Klipper](https://github.com/Klipper3d/)
 - [KlipperScreen](https://github.com/KlipperScreen/KlipperScreen)
 - [fluidd](https://github.com/fluidd-core/fluidd)
 - [moonraker](https://github.com/Arksine/moonraker)
