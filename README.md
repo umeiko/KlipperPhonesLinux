@@ -1,10 +1,11 @@
 # KlipperPhonesLinux
-Building an Klipper Machine Host for a 3D Printer Based on Native Linux System Adapted for Mobile Phones
+[中文文档](./README_CN.md)
 
-让你的旧手机变为高性能Linux系统的Klipper上位机
+Turning your old phones into high-performance Klipper machine host running on Linux!
 ![wt88047](pictures/1.jpg)
 ![wt88047](pictures/2.jpg)
-## 支持的机型
+
+## Supported Models
 - Xiaomi Redmi 2 (wt88047)
 - Xiaomi Redmi 5 Plus (xiaomi-vince)
 - Xiaomi Mi 5X (xiaomi-tissot)
@@ -19,48 +20,50 @@ Building an Klipper Machine Host for a 3D Printer Based on Native Linux System A
 - Xiaomi Redmi 4x (xiaomi-santoni)
 - Xiaomi Note 2 (xiaomi-scopito)
 
-## 刷机方法：
+## Flashing Instructions:
 - [Xiaomi Redmi 2]()
-- [高通625机型](https://github.com/umeiko/lk2nd/releases/tag/625_Flasher)
-- [Xiaomi Note2]()
+- [Qualcomm 625 Models](https://github.com/umeiko/lk2nd/releases/tag/625_Flasher)
+- [Xiaomi Note 2]()
 - [Xiaomi Redmi 4x]()
 
-## 刷机后如何快速开始
-1. 连接终端
-  - 使用网络(推荐) 
-    - 使用KlipperScreen连接到你的局域网
-    - 网络浏览器输入`你手机的ip地址:8888`即可，例如`192.168.31.124:8888`
-  - 使用usb串口
-    - usb线缆连接到你的电脑，你的电脑将识别到串口设备。
-    - 使用`PuTTY`或其它终端软件进入终端控制台。
+## Quick Start After Flashing
+- Connect to the terminal
+  - Using the network (recommended)
+    - Connect to your local network with KlipperScreen
+    - Enter your phone's IP address in a web browser with port 8888, e.g., `192.168.31.124:8888`
+  - Using USB serial
+    - Connect your phone to your computer with a USB cable; your computer will recognize it as a serial device.
+    - Use `PuTTY` or other terminal software to access the terminal console.
 
-2. 利用otg插头连接到你的3D打印机主板
-   - 在命令行中使用`lsusb`命令，确保系统识别到了你的3D打印机主板。
-     - 常见的主板会显示为`Qingheng`, `OpenMoko xxx`等。
-     - 如果没有识别到的话，请检查你的线缆连接情况。
-   - 为你的3D打印机主板安装Klipper固件。
-     - 安装交叉编译器
+- Connect to your 3D printer motherboard using an OTG adapter
+  - In the command line, use the `lsusb` command to ensure the system recognizes your 3D printer motherboard.
+    - Common motherboards will be displayed as `Qingheng`, `OpenMoko xxx`, etc.
+    - If not recognized, check your cable connections.
+  - Install Klipper firmware for your 3D printer motherboard.
+    - Install cross-compiler
 
-           sudo apt update
-           sudo apt install avrdude gcc-avr binutils-avr avr-libc stm32flash libnewlib-arm-none-eabi gcc-arm-none-eabi binutils-arm-none-eabi pkg-config
-      
-      - 参考[Klipper文档]() 为你的主板编译安装Klipper固件
-  
-3. 设置3D打印机的配置文件
-    - 向你的打印机主板销售方索取，或在[Klipper仓库]()中寻找你主板型号的配置文件。
-    - 打开`Fluidd`界面，你可以用网页浏览器访问`你手机的ip地址`打开。
-    - 在右侧的`配置`选项卡中，将你的主板配置文件重命名为`printer.cfg`并覆盖原始的文件。
-    - 在`printer.cfg`的末尾填入 `[include fluidd.cfg]`
+          sudo apt update
+          sudo apt install avrdude gcc-avr binutils-avr avr-libc stm32flash libnewlib-arm-none-eabi gcc-arm-none-eabi binutils-arm-none-eabi pkg-config
 
-4. 此时你就完成了简单的配置工作，享受吧！
+    - Refer to [Klipper documentation](https://www.klipper3d.org/Installation.html) to compile and install Klipper firmware for your motherboard.
 
-## 将你的手机改装为直流供电
+- Configure the 3D printer's configuration file
+  - Obtain the configuration file from your printer motherboard supplier or find it in the [Klipper repository](https://github.com/Klipper3d/klipper/tree/master/config).
+  - Open the `Fluidd` interface, accessible through a web browser at `your phone's IP address`.
+  - In the `Config` tab on the right, rename your motherboard configuration file to `printer.cfg` and overwrite the original file.
+  - At the end of `printer.cfg`, add `[include fluidd.cfg]`.
+
+- Now you have completed the basic configuration. Enjoy!
+
+## Convert Your Phone to DC Power Supply ( PCB )
 
 - Xiaomi Redmi 2 (wt88047)
 - Xiaomi Redmi Note 4 (xiaomi-mido)
+- Xiaomi Redmi 4 Prime(xiaomi-markw)
 - Xiaomi Redmi 4x (xiaomi-santoni)
 
-## 常见问题及解决方案：
-- 启用和设置CAN
-- 归零时发生错误`timer too close`
-- `lsusb`没有任何反应
+## Common Issues and Solutions:
+- Enabling and configuring CAN
+- Error during homing, 'timer too close'
+- `lsusb` shows no reaction
+- rotate the screen
