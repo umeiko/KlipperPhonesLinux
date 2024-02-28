@@ -6,6 +6,10 @@ Here are some direct power supply modification solutions for commonly used model
 - Disassemble your battery, remove the battery protection board, take out the battery cell, and input 4.2V or 5V DC into the protection board. Replace the phone cell with it.
 - Insert the OTG plug into the phone's tail plug, enabling the phone's USB host mode.
 - Input 5V DC into the phone's tail plug USB, and the phone will automatically turn on from the shutdown state.
+![power](./power.png)
+
+- The phone using USB-otg wire to connecting 3D printers, and other tools and toolheads.
+![connect](./connect.png)
 
 # Some Details
 - Redmi 2 requires the recognition of a genuine battery charging chip to work properly. Otherwise, it cannot correctly detect USB devices after booting.
