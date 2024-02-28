@@ -57,7 +57,7 @@ Turning your old phones into high-performance Klipper machine host running on De
 - Configure the 3D printer's configuration file
   - Obtain the configuration file from your printer motherboard supplier or find it in the [Klipper repository](https://github.com/Klipper3d/klipper/tree/master/config).
   - Open the `Fluidd` interface, accessible through a web browser at `your phone's IP address`.
-  - In the `Config` tab on the right, rename your motherboard configuration file to `printer.cfg` and overwrite the original file.
+  - In the `Config` tab on the left, rename your motherboard configuration file to `printer.cfg` and overwrite the original file.
   - At the end of `printer.cfg`, add `[include fluidd.cfg]`.
 
 - Now you have completed the basic configuration. Enjoy!
