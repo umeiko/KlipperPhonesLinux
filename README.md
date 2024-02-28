@@ -5,6 +5,14 @@ Turning your old phones into high-performance Klipper machine host running on De
 ![wt88047](pictures/1.jpg)
 ![wt88047](pictures/2.jpg)
 
+## Features
+- Native Linux system, supporting `Ubuntu 20.04` distribution with excellent compatibility
+- Equipped with a high-resolution capacitive touchscreen, providing an outstanding appearance
+- Low cost with exceptional CPU performance
+- Pre-installed `Klipper` runtime environment, no need for secondary installation
+- Integrated with various useful tools: `USB serial terminal`, `SSH service`, `WebSSH terminal`...
+
+
 ## Supported Models
 - Xiaomi Redmi 2 ([wt88047](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_Redmi2))
 - Xiaomi Redmi 5 Plus ([xiaomi-vince](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_msm8953_Phones))
