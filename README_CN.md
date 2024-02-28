@@ -4,24 +4,25 @@ Building an Klipper Machine Host for a 3D Printer Based on Native Linux System A
 让你的旧手机变为高性能Linux系统的Klipper上位机
 ![wt88047](pictures/1.jpg)
 ![wt88047](pictures/2.jpg)
+
 ## 支持的机型
 - Xiaomi Redmi 2 (wt88047)
-- Xiaomi Redmi 5 Plus (xiaomi-vince)
-- Xiaomi Mi 5X (xiaomi-tissot)
-- Xiaomi Mi A1 (xiaomi-tissot)
-- Xiaomi Mi A2 Lite (xiaomi-daisy)
-- Xiaomi Redmi 6 Pro (xiaomi-daisy)
-- Xiaomi Redmi 4 Prime (xiaomi-markw)
-- Xiaomi Redmi 5 Plus (xiaomi-vince)
-- Xiaomi Redmi Note 4 (xiaomi-mido)
-- Xiaomi Redmi S2 (xiaomi-ysl)
-- Xiaomi Redmi Y2 (xiaomi-ysl)
+- Xiaomi Redmi 5 Plus ([xiaomi-vince](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_msm8953_Phones))
+- Xiaomi Mi 5X ([xiaomi-tissot](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_msm8953_Phones))
+- Xiaomi Mi A1 ([xiaomi-tissot](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_msm8953_Phones))
+- Xiaomi Mi A2 Lite ([xiaomi-daisy](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_msm8953_Phones))
+- Xiaomi Redmi 6 Pro ([xiaomi-daisy](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_msm8953_Phones))
+- Xiaomi Redmi 4 Prime ([xiaomi-markw](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_msm8953_Phones))
+- Xiaomi Redmi Note 4 ([xiaomi-mido](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_msm8953_Phones))
+- Xiaomi Redmi S2 ([xiaomi-ysl](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_msm8953_Phones))
+- Xiaomi Redmi Y2 ([xiaomi-ysl](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_msm8953_Phones))
 - Xiaomi Redmi 4x (xiaomi-santoni)
-- Xiaomi Note 2 (xiaomi-scopito)
+- Xiaomi Note 2 (xiaomi-scorpio)
+
 
 ## 刷机方法：
 - [Xiaomi Redmi 2]()
-- [高通625机型](https://github.com/umeiko/lk2nd/releases/tag/625_Flasher)
+- [小米高通625机型](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_msm8953_Phones)
 - [Xiaomi Note2]()
 - [Xiaomi Redmi 4x]()
 
@@ -63,15 +64,15 @@ Building an Klipper Machine Host for a 3D Printer Based on Native Linux System A
 
 ## 常见问题及解决方案：
 - [启用和设置CAN](https://github.com/umeiko/KlipperPhonesLinux/blob/main/Docs/Q%26A/CAN_BUS_CN.md)
-- 我想要旋转屏幕
-- 归零时发生错误`timer too close`
+- 归零时发生错误 `timer too close`
+  - 如果你是高通625机型，关闭Klipper设置中的CPU温度监测
 - [`lsusb`没有任何反应](https://github.com/umeiko/KlipperPhonesLinux/tree/main/PCB)
-- 旋转屏幕
-- 想要自己编译Linux内核
+- [旋转屏幕](https://github.com/umeiko/KlipperPhonesLinux/blob/main/Docs/Q%26A/ROTATE_THE_SCREEN_CN.md)
+- [想要自己编译Linux内核](https://gitee.com/meiziyang2023/ubuntu-ports-xiaomi-625-phones)
 
 ## 感谢
-- [project PostmarketOS](https://postmarketos.org/)
-- [Klipper] (https://github.com/Klipper3d/)
+- [PostmarketOS](https://postmarketos.org/)
+- [Klipper](https://github.com/Klipper3d/)
 - [KlipperScreen](https://github.com/KlipperScreen/KlipperScreen)
 - [fluidd](https://github.com/fluidd-core/fluidd)
 - [moonraker](https://github.com/Arksine/moonraker)

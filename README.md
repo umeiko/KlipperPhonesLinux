@@ -7,22 +7,21 @@ Turning your old phones into high-performance Klipper machine host running on De
 
 ## Supported Models
 - Xiaomi Redmi 2 (wt88047)
-- Xiaomi Redmi 5 Plus (xiaomi-vince)
-- Xiaomi Mi 5X (xiaomi-tissot)
-- Xiaomi Mi A1 (xiaomi-tissot)
-- Xiaomi Mi A2 Lite (xiaomi-daisy)
-- Xiaomi Redmi 6 Pro (xiaomi-daisy)
-- Xiaomi Redmi 4 Prime (xiaomi-markw)
-- Xiaomi Redmi 5 Plus (xiaomi-vince)
-- Xiaomi Redmi Note 4 (xiaomi-mido)
-- Xiaomi Redmi S2 (xiaomi-ysl)
-- Xiaomi Redmi Y2 (xiaomi-ysl)
+- Xiaomi Redmi 5 Plus ([xiaomi-vince](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_msm8953_Phones))
+- Xiaomi Mi 5X ([xiaomi-tissot](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_msm8953_Phones))
+- Xiaomi Mi A1 ([xiaomi-tissot](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_msm8953_Phones))
+- Xiaomi Mi A2 Lite ([xiaomi-daisy](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_msm8953_Phones))
+- Xiaomi Redmi 6 Pro ([xiaomi-daisy](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_msm8953_Phones))
+- Xiaomi Redmi 4 Prime ([xiaomi-markw](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_msm8953_Phones))
+- Xiaomi Redmi Note 4 ([xiaomi-mido](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_msm8953_Phones))
+- Xiaomi Redmi S2 ([xiaomi-ysl](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_msm8953_Phones))
+- Xiaomi Redmi Y2 ([xiaomi-ysl](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_msm8953_Phones))
 - Xiaomi Redmi 4x (xiaomi-santoni)
-- Xiaomi Note 2 (xiaomi-scopito)
+- Xiaomi Note 2 (xiaomi-scorpio)
 
 ## Flashing Instructions:
 - [Xiaomi Redmi 2]()
-- [Qualcomm 625 Models](https://github.com/umeiko/lk2nd/releases/tag/625_Flasher)
+- [Xiaomi Qualcomm 625 Models](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_msm8953_Phones)
 - [Xiaomi Note 2]()
 - [Xiaomi Redmi 4x]()
 
@@ -66,12 +65,13 @@ Turning your old phones into high-performance Klipper machine host running on De
 ## Common Issues and Solutions:
 - [Enabling and configuring CAN](https://github.com/umeiko/KlipperPhonesLinux/blob/main/Docs/Q%26A/CAN_BUS.md)
 - Error during homing, 'timer too close'
+  - If you have a Qualcomm Snapdragon 625 model, disable CPU temperature monitoring in Klipper settings.
 - [`lsusb` shows no reaction](https://github.com/umeiko/KlipperPhonesLinux/tree/main/PCB)
-- rotate the screen
-- compile your own Linux kernel
+- [rotate the screen](https://github.com/umeiko/KlipperPhonesLinux/blob/main/Docs/Q%26A/ROTATE_THE_SCREEN.md)
+- [compile your own Linux kernel](https://gitee.com/meiziyang2023/ubuntu-ports-xiaomi-625-phones)
 
 ## Acknowledgements
-- [project PostmarketOS](https://postmarketos.org/)
+- [PostmarketOS](https://postmarketos.org/)
 - [Klipper] (https://github.com/Klipper3d/)
 - [KlipperScreen](https://github.com/KlipperScreen/KlipperScreen)
 - [fluidd](https://github.com/fluidd-core/fluidd)
