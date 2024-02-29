@@ -1,4 +1,7 @@
 # Overview
+
+![fig1](./test_points.png)
+## PCB Design
 [中文文档](./README_CN.md)
 - Includes DC-DC function, stepping down 12~24V DC to the working voltage of the phone
 - Non-destructive modification, elegantly replacing the phone's battery
