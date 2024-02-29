@@ -26,7 +26,7 @@ Building an Klipper Machine Host for a 3D Printer Based on Native Linux System A
 - Xiaomi Redmi Y2 ([xiaomi-ysl](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_msm8953_Phones))
 - Xiaomi Redmi 4x (xiaomi-santoni)
 - Xiaomi Note 2 ([xiaomi-scorpio](https://github.com/umeiko/KlipperPhonesLinux/blob/main/Docs/msm8996.md))
-- 没有你的机型？没关系！[移植教程](https://github.com/umeiko/KlipperPhonesLinux/blob/main/LinuxKernels/README_CN.md)
+- 没有你的机型？没关系！[移植教程](https://github.com/umeiko/KlipperPhonesLinux/blob/main/LinuxKernels)
 
 ## 刷机方法：
 - [Xiaomi Redmi 2](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_Redmi2)
