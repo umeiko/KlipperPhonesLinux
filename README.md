@@ -6,11 +6,12 @@ Turning your old phones into high-performance Klipper machine host running on De
 ![wt88047](pictures/2.jpg)
 
 ## Features
-- Native Linux system, supporting `Ubuntu 20.04` distribution with excellent compatibility
-- Equipped with a high-resolution capacitive touchscreen, providing an outstanding appearance
-- Low cost with exceptional CPU performance
-- Pre-installed `Klipper` runtime environment, no need for secondary installation
-- Integrated with various useful tools: `USB serial terminal`, `SSH service`, `WebSSH terminal`...
+- 💻 Native Linux system, supporting `Ubuntu 20.04` distribution with excellent compatibility
+- 📱Equipped with a high-resolution capacitive touchscreen, providing an outstanding appearance
+- 🚀 Low cost with exceptional CPU performance
+- 🌈 Pre-installed `Klipper` runtime environment, no need for secondary installation
+- 🛠️ Integrated with various useful tools: `USB serial terminal`, `SSH service`, `WebSSH terminal`...
+- 🌐 Community Support: Share experiences, solve problems, and collaborate with other enthusiasts to contribute to the development of this project.
 
 
 ## Supported Models
@@ -26,7 +27,7 @@ Turning your old phones into high-performance Klipper machine host running on De
 - Xiaomi Redmi Y2 ([xiaomi-ysl](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_msm8953_Phones))
 - Xiaomi Redmi 4x (xiaomi-santoni)
 - Xiaomi Note 2 ([xiaomi-scorpio](https://github.com/umeiko/KlipperPhonesLinux/blob/main/Docs/msm8996.md))
-
+- No model for your device? No problem! [Porting Tutorial](https://github.com/umeiko/KlipperPhonesLinux/blob/main/LinuxKernels/readme.md)
 ## Flashing Instructions:
 - [Xiaomi Redmi 2](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_Redmi2)
 - [Xiaomi Qualcomm 625 Models](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_msm8953_Phones)
@@ -56,8 +57,8 @@ Turning your old phones into high-performance Klipper machine host running on De
 
 - Configure the 3D printer's configuration file
   - Obtain the configuration file from your printer motherboard supplier or find it in the [Klipper repository](https://github.com/Klipper3d/klipper/tree/master/config).
-  - Open the `Fluidd` interface, accessible through a web browser at `your phone's IP address`.
-  - In the `Config` tab on the right, rename your motherboard configuration file to `printer.cfg` and overwrite the original file.
+  - Open the `Fluidd` interface, accessible through a web browser at `your phone's IP address`, e.g., `192.168.31.124`
+  - In the `Config` tab on the left, rename your motherboard configuration file to `printer.cfg` and overwrite the original file.
   - At the end of `printer.cfg`, add `[include fluidd.cfg]`.
 
 - Now you have completed the basic configuration. Enjoy!

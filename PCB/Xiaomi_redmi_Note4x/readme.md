@@ -1,7 +1,13 @@
 # Overview
 [中文文档](./README_CN.md)
 
+- First, remove the battery and the tail plug ribbon cable.
+- The Redmi Note 4X (mido) motherboard is designed with test points for USB and power. You can directly modify it by connecting wires. Follow the diagram below for wiring instructions
+![fig1](./note4x.png)
+
+## PCB Design
 [video](https://www.bilibili.com/video/BV1oH4y177H2/)
+- Connect the board points using spring terminals to achieve a non-destructive modification.
 - Includes DC-DC function, stepping down 12~24V DC to the working voltage of the phone
 - Non-destructive modification, elegantly replacing the phone's battery
 - Includes a battery encryption chip function, allowing the phone to recognize it as a normal battery

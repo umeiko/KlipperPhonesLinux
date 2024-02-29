@@ -6,13 +6,15 @@ Building an Klipper Machine Host for a 3D Printer Based on Native Linux System A
 ![wt88047](pictures/2.jpg)
 
 ## KlipperPhones上位机的特点
-- 原生Linux系统, `Ubuntu-20.04`发行版，兼容性极佳
+- 原生Linux系统: `Ubuntu-20.04`发行版，兼容性极佳
 - 高分辨率电容触摸屏, 非常良好的外观
 - 极低的成本, 超高的cpu性能
 - 集成`Klipper`运行环境，无需二次安装
 - 集成各种实用工具: USB串口终端, SSH服务, WebSHH终端...
+- 社区支持：在 GitHub 的社区中，你可以与其他改装爱好者交流心得，解决问题，共同推动这个项目的发展。
 
-## 支持的机型- Xiaomi Redmi 2 ([wt88047](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_Redmi2))
+## 支持的机型
+- Xiaomi Redmi 2 ([wt88047](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_Redmi2))
 - Xiaomi Redmi 5 Plus ([xiaomi-vince](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_msm8953_Phones))
 - Xiaomi Mi 5X ([xiaomi-tissot](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_msm8953_Phones))
 - Xiaomi Mi A1 ([xiaomi-tissot](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_msm8953_Phones))
@@ -24,7 +26,7 @@ Building an Klipper Machine Host for a 3D Printer Based on Native Linux System A
 - Xiaomi Redmi Y2 ([xiaomi-ysl](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_msm8953_Phones))
 - Xiaomi Redmi 4x (xiaomi-santoni)
 - Xiaomi Note 2 ([xiaomi-scorpio](https://github.com/umeiko/KlipperPhonesLinux/blob/main/Docs/msm8996.md))
-
+- 没有你的机型？没关系！[移植教程](https://github.com/umeiko/KlipperPhonesLinux/blob/main/LinuxKernels/README_CN.md)
 
 ## 刷机方法：
 - [Xiaomi Redmi 2](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_Redmi2)
@@ -56,7 +58,7 @@ Building an Klipper Machine Host for a 3D Printer Based on Native Linux System A
 - 设置3D打印机的配置文件
     - 向你的打印机主板销售方索取，或在[Klipper仓库](https://github.com/Klipper3d/klipper/tree/master/config)中寻找你主板型号的配置文件。
     - 打开`Fluidd`界面，你可以用网页浏览器访问`你手机的ip地址`打开。
-    - 在右侧的`配置`选项卡中，将你的主板配置文件重命名为`printer.cfg`并覆盖原始的文件。
+    - 在左侧的`配置`选项卡中，将你的主板配置文件重命名为`printer.cfg`并覆盖原始的文件。
     - 在`printer.cfg`的末尾填入 `[include fluidd.cfg]`
 
 - 此时你就完成了简单的配置工作，享受吧！
