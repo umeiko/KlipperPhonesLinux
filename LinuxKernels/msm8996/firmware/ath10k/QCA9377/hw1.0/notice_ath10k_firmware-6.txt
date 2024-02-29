@@ -1,0 +1,1 @@
+../../QCA6174/hw3.0/notice_ath10k_firmware-6.txt

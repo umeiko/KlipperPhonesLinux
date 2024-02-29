@@ -1,0 +1,1 @@
+../../QCA9887/hw1.0/notice_ath10k_firmware-5.txt

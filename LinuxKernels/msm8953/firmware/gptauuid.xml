@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+http://www.ietf.org/rfc/rfc4122.txt
+-->
+
+<image_list>
+  <image name="gpsample.mbn">
+    <uuid>"5AF8C3E6-D9DF-446E-4ff2d4d58e8ca49b"</uuid>
+    <info>"GP Sample App"</info>
+  </image>
+  <image name="mlipay.mbn">
+    <uuid>"bfbede36-2a23-11e6-aef76d6c69706179"</uuid>
+    <info>"Mlipay"</info>
+  </image>
+  <image name="vsimapp.mbn">
+    <uuid>"3d08821c-33a6-11e6-a1fa089e01c83aa2"</uuid>
+    <info>"VSIMApp"</info>
+  </image>
+</image_list>
