@@ -16,7 +16,7 @@
         
         ./init.sh
         git clone https://github.com/msm8953-mainline/linux --depth 1
-        cd ../msm8953/.config ./linux
+        cp ../msm8953/.config ./linux
         ./full_compile.sh
 
 3. 下载本仓库提供的klipperos_base_rootfs.zip, 将其解压后命名为root.img放置在本目录下

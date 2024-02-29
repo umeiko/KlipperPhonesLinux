@@ -20,7 +20,7 @@ Porting should be done on the `Ubuntu 20.24` system.
     ```bash
     ./init.sh
     git clone https://github.com/msm8953-mainline/linux --depth 1
-    cd ../msm8953/.config ./linux
+    cp ../msm8953/.config ./linux
     ./full_compile.sh
     ```
 
