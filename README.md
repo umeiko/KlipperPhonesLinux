@@ -1,7 +1,7 @@
 # KlipperPhonesLinux
 [中文文档](./README_CN.md)
 
-Turning your old phones into high-performance Klipper machine host running on Debian Linux!
+Turning your old phones into high-performance Klipper host machine running on Debian Linux!
 ![wt88047](pictures/1.jpg)
 ![wt88047](pictures/2.jpg)
 
