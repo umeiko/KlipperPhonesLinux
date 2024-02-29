@@ -12,8 +12,9 @@ Here are some direct power supply modification solutions for commonly used model
 ![connect](./connect.png)
 
 # Some Details
+- 💡The reliable grounding of the electrical system🔌in a 3D printer is an essential prerequisite for ensuring stable and dependable operation.
 - Redmi 2 requires the recognition of a genuine battery charging chip to work properly. Otherwise, it cannot correctly detect USB devices after booting.
-- For models using the Qualcomm 625 CPU, inputting 5V directly into the Vbat contact on the phone's motherboard can work normally without using a battery protection board.
+- For models using the Qualcomm 625 CPU, inputting 4.7V directly into the Vbat contact on the phone's motherboard can work normally without using a battery protection board.
 - The OTG function is implemented by recognizing the `id pin` in micro-USB or the `cc pin` in Type-C. If the phone cannot recognize it, check the connection method of the `id pin` or `cc pin`. Failure to enter OTG mode correctly will result in no output feedback under the `lsusb` command.
 - Keep the USB signal lines as short as possible, wind the D+ and D- together, and use wires with shielding nets and shielding rings. Otherwise, unstable connections and disconnections may occur.
 
