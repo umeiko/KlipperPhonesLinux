@@ -1,3 +1,6 @@
 [submodule "LinuxKernels/huawei-milan/firmware"]
 	path = LinuxKernels/huawei-milan/firmware
 	url = https://github.com/bzy-080408/postmarketos-vendor-huawei-milan
+[submodule "LinuxKernels/msm8940/firmware"]
+	path = LinuxKernels/msm8940/firmware
+	url = https://github.com/Danct12/vendor_xiaomi_santoni
