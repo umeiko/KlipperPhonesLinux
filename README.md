@@ -9,6 +9,7 @@ Turning your old phones into high-performance Klipper host machine running on De
 - 💻 Native Linux system, supporting `Ubuntu 20.04` distribution with excellent compatibility
 - 📱Equipped with a high-resolution capacitive touchscreen, providing an outstanding appearance
 - 🚀 Low cost with exceptional CPU performance
+- ⚡ DC supply, Power on simultaneously with your 3D printer
 - 🌈 Pre-installed `Klipper` runtime environment, no need for secondary installation
 - 🛠️ Integrated with various useful tools: `USB serial terminal`, `SSH service`, `WebSSH terminal`...
 - 🌐 Community Support: Share experiences, solve problems, and collaborate with other enthusiasts to contribute to the development of this project.
