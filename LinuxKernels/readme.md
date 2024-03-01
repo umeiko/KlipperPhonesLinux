@@ -15,12 +15,13 @@ Porting should be done on the `Ubuntu 20.24` system.
     cd ./KlipperPhonesLinux/LinuxKernels/scripts
     ```
 
-2. Run `init.sh` to install dependencies, copy the correct Linux kernel source (using msm8953-mainline as an example), and kernel configuration file (using msm8953-mainline as an example) to this directory. Then, run `full_compile.sh` for kernel compilation.
+2. Run `init.sh` to install dependencies, copy the correct Linux kernel source (using msm8953-mainline as an example), and kernel configuration file (using msm8953-mainline as an example) to this directory. Run `menuconfig.sh` to configure the kernel features you need (if you don't know what to modify, you can simply exit to use the default configuration). Then, run `full_compile.sh` for kernel compilation.
 
     ```bash
     ./init.sh
     git clone https://github.com/msm8953-mainline/linux --depth 1
     cp ../msm8953/.config ./linux
+    ./menuconfig.sh
     ./full_compile.sh
     ```
 
