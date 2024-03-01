@@ -1,0 +1,3 @@
+[submodule "LinuxKernels/huawei-milan/firmware"]
+	path = LinuxKernels/huawei-milan/firmware
+	url = https://github.com/bzy-080408/postmarketos-vendor-huawei-milan
