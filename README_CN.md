@@ -27,6 +27,8 @@ Building an Klipper Machine Host for a 3D Printer Based on Native Linux System A
 - Xiaomi Redmi 4x (xiaomi-santoni)
 - Xiaomi Note 2 ([xiaomi-scorpio](https://github.com/umeiko/KlipperPhonesLinux/blob/main/Docs/msm8996.md))
 - Huawei Maimang 5 ([huawei milan](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Huawei_milan))
+- Huawei G9 (Plus) ([huawei milan](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Huawei_milan))
+- Huawei Nova (Plus) ([huawei milan](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Huawei_milan))
 - 没有你的机型？没关系！[移植教程](https://github.com/umeiko/KlipperPhonesLinux/blob/main/LinuxKernels)
 
 ## 刷机方法：
@@ -34,7 +36,7 @@ Building an Klipper Machine Host for a 3D Printer Based on Native Linux System A
 - [小米高通625机型](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_msm8953_Phones)
 - [Xiaomi Note2](https://github.com/umeiko/KlipperPhonesLinux/blob/main/Docs/msm8996.md)
 - [Xiaomi Redmi 4x]()
-- [Huawei Maimang 5](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Huawei_milan)
+- [Huawei Maimang 5 / G9 (Plus) / Nova (Plus)](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Huawei_milan)
 
 ## 刷机后如何快速开始
 - 连接终端
