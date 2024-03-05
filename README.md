@@ -67,6 +67,7 @@ Turning your old phones into high-performance Klipper host machine running on De
 
   - In the `Config` tab on the left, rename your motherboard configuration file to `printer.cfg` and overwrite the original file.
   - At the end of `printer.cfg`, add `[include fluidd.cfg]`.
+  - ⚠️ Please **do not** overwrite or delete the `moonraker.conf` file on the phone, as this can cause serious errors.
 
 - Now you have completed the basic configuration. Enjoy!
 
