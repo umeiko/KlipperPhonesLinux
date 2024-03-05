@@ -64,6 +64,7 @@ Building an Klipper Machine Host for a 3D Printer Based on Native Linux System A
     - 打开`Fluidd`界面，你可以用网页浏览器访问`你手机的ip地址`打开。
     - 在左侧的`配置`选项卡中，将你的主板配置文件重命名为`printer.cfg`并覆盖原始的文件。
     - 在`printer.cfg`的末尾填入 `[include fluidd.cfg]`
+    - 请**不要覆盖或删除**手机中的`moonraker.conf`文件，这会导致严重错误。
 
 - 此时你就完成了简单的配置工作，享受吧！
 
