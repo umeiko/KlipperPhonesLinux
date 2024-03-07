@@ -13,6 +13,7 @@ Here are some direct power supply modification solutions for commonly used model
 
 # Some Details
 - 💡The reliable grounding of the electrical system🔌in a 3D printer is an essential prerequisite for ensuring stable and dependable operation.
+- Ensure that your phone's power system is grounded with the printer motherboard, and it's preferable to provide power to the mobile system through a SMPS(Switch Mode Power Supply). Using the motherboard's fan interface for your phone's power supply may lead to issues.
 - Redmi 2 requires the recognition of a genuine battery charging chip to work properly. Otherwise, it cannot correctly detect USB devices after booting.
 - For models using the Qualcomm 625 CPU, inputting 4.7V directly into the Vbat contact on the phone's motherboard can work normally without using a battery protection board.Vbat and Vusb must not be directly connected! Ensure that `Vbat < Vusb`.
 - The OTG function is implemented by recognizing the `id pin` in micro-USB or the `cc pin` in Type-C. If the phone cannot recognize it, check the connection method of the `id pin` or `cc pin`. Failure to enter OTG mode correctly will result in no output feedback under the `lsusb` command.
