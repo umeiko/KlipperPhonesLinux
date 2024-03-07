@@ -28,6 +28,7 @@ Turning your old phones into high-performance Klipper host machine running on De
 - Xiaomi Redmi Y2 ([xiaomi-ysl](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_msm8953_Phones))
 - Xiaomi Redmi 4x ([xiaomi-santoni](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_santoni))
 - Xiaomi Note 2 ([xiaomi-scorpio](https://github.com/umeiko/KlipperPhonesLinux/blob/main/Docs/msm8996.md))
+- Xiaomi 5 ([xiaomi-gemini]())
 - Huawei Maimang 5 ([huawei milan](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Huawei_milan))
 - Huawei G9 (Plus) ([huawei milan](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Huawei_milan))
 - Huawei Nova (Plus) ([huawei milan](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Huawei_milan))
@@ -38,6 +39,7 @@ Turning your old phones into high-performance Klipper host machine running on De
 - [Xiaomi Note 2](https://github.com/umeiko/KlipperPhonesLinux/blob/main/Docs/msm8996.md)
 - [Xiaomi Redmi 4x](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_santoni)
 - [Huawei Maimang 5 / G9 (Plus) / Nova (Plus)](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Huawei_milan)
+- [Xiaomi 5]()
 
 ## Quick Start After Flashing
 - Connect to the terminal
