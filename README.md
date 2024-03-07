@@ -46,6 +46,12 @@ Turning your old phones into high-performance Klipper host machine running on De
   - Using the network (recommended)
     - Connect to your local network with KlipperScreen
     - Enter your phone's IP address in a web browser with port 8888, e.g., `192.168.31.124:8888`
+    - Entering:
+      - Host `0.0.0.0`
+      - Port `22`
+      - Username `umeko`
+      - Password `1234`
+  - Then you can connect into your phone's SSH console in the web page.
   - Using USB serial
     - Connect your phone to your computer with a USB cable; your computer will recognize it as a serial device.
     - Use `PuTTY` or other terminal software to access the terminal console.
