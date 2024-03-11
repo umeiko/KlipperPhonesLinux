@@ -1,6 +1,7 @@
 # Rotate Screen
 [中文文档](./ROTATE_THE_SCREEN_CN.md)
 
+# X11
 - Run the command
 
         sudo nano /etc/X11/xorg.conf.d/00-rotate.conf
@@ -21,3 +22,11 @@
 - If you want a portrait orientation, simply delete this file
 
         sudo rm /etc/X11/xorg.conf.d/00-rotate.conf
+
+# Weston
+
+- Run the command
+  
+         sudo nano /root/.config/weston.ini
+
+- change the `transform` section
