@@ -24,6 +24,9 @@
     softdep ath10k_pci pre: cfg80211
     softdep cfg80211 pre: mac80211
 
+打开`/home/auto_resize_script.sh`在末尾添加以下字段重扫pci总线进一步确保`wlan驱动`正确加载
 
+    sleep 30
+    echo 1 > /sys/class/pci_bus/0000\:01/rescan
 
 
