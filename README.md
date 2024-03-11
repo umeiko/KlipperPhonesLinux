@@ -51,7 +51,7 @@ Turning your old phones into high-performance Klipper host machine running on De
       - Port `22`
       - Username `umeko`
       - Password `1234`
-  - Then you can connect into your phone's SSH console in the web page.
+    - Then you can connect into your phone's SSH console in the web page.
   - Using USB serial
     - Connect your phone to your computer with a USB cable; your computer will recognize it as a serial device.
     - Use `PuTTY` or other terminal software to access the terminal console.
