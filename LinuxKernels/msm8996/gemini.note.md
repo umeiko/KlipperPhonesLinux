@@ -16,9 +16,14 @@
 即可正常使用屏幕
 
 
-打开`/etc/modprobe.d/touchscreens-workaround.conf`
+打开`/etc/modprobe.d/touchscreens-workaround.conf`添加以下字段强行规定网络驱动加载顺序修复网络问题
 
     softdep rmtfs_mem pre: ath
+    softdep ath pre: ath10k_core
+    softdep ath10k_core pre: ath10k_pci
+    softdep ath10k_pci pre: cfg80211
+    softdep cfg80211 pre: mac80211
+
 
 
 如没有网络，尝试重新加载网络驱动 ?
