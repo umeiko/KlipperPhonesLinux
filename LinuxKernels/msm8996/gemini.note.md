@@ -7,18 +7,18 @@
 
 加入以下字段：
 
-  Section "Device"
-      Identifier "Card0"
-      Driver "simplefb"
-      Option "AccelMethod" "none"
-  EndSection
+    Section "Device"
+        Identifier "Card0"
+        Driver "simplefb"
+        Option "AccelMethod" "none"
+    EndSection
 
 即可正常使用屏幕
 
 
 打开`/etc/modprobe.d/touchscreens-workaround.conf`
 
-  softdep rmtfs_mem pre: ath
+    softdep rmtfs_mem pre: ath
 
 
 如没有网络，尝试重新加载网络驱动 ?
