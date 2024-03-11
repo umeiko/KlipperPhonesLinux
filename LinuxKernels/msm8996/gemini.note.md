@@ -26,12 +26,4 @@
 
 
 
-如没有网络，尝试重新加载网络驱动 ?
 
-`sudo rmmod ath`
-`sudo rmmod mac80211`
-`sudo rmmod cfg80211`
-`sudo modprobe ath10k_pci`
-`sudo modprobe ath10k_core`
-`sudo modprobe ath`
-`sudo modprobe cfg80211`
