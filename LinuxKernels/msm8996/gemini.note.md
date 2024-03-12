@@ -1,9 +1,9 @@
 ## 小米5
 如果强解BL锁，会导致gpu驱动无法加载，实测可通过屏蔽GPU解决
 
-`sudo systemctl disable xwayland_ks`
-`sudo systemctl enable KlipperScreen`
-`sudo nano /etc/X11/xorg.conf.d/00-rotate.conf`
+        sudo systemctl disable xwayland_ks
+        sudo systemctl enable KlipperScreen
+        sudo nano /etc/X11/xorg.conf.d/00-rotate.conf
 
 加入以下字段：
 
@@ -18,6 +18,7 @@
 
 打开`/etc/modprobe.d/touchscreens-workaround.conf`添加以下字段强行规定网络驱动加载顺序修复网络问题
 
+    softdep panel_jdi_fhd_r63452 pre: rmtfs_mem
     softdep rmtfs_mem pre: ath
     softdep ath pre: ath10k_core
     softdep ath10k_core pre: ath10k_pci
