@@ -1,4 +1,5 @@
-## 小米5
+# 小米5注意事项
+## 强解手机的修复显示
 如果强解BL锁，会导致gpu驱动无法加载，实测可通过屏蔽GPU解决
 
         sudo systemctl disable xwayland_ks
@@ -15,7 +16,7 @@
 
 即可正常使用屏幕
 
-
+## 修复启动时随机黑屏/随机没有网络的情况
 打开`/etc/modprobe.d/touchscreens-workaround.conf`添加以下字段强行规定网络驱动加载顺序修复网络问题
 
         softdep drm pre: panel_jdi_fhd_r63452
