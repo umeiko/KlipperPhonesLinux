@@ -18,12 +18,13 @@
 
 打开`/etc/modprobe.d/touchscreens-workaround.conf`添加以下字段强行规定网络驱动加载顺序修复网络问题
 
-    softdep panel_jdi_fhd_r63452 pre: rmtfs_mem
-    softdep rmtfs_mem pre: ath
-    softdep ath pre: ath10k_core
-    softdep ath10k_core pre: ath10k_pci
-    softdep ath10k_pci pre: cfg80211
-    softdep cfg80211 pre: mac80211
+        softdep drm pre: panel_jdi_fhd_r63452
+        softdep panel_jdi_fhd_r63452 pre: rmtfs_mem
+        softdep ath pre: ath10k_core
+        softdep ath10k_core pre: ath10k_pci
+        softdep ath10k_pci pre: cfg80211
+        softdep cfg80211 pre: mac80211
+        softdep mac80211 pre: rmtfs_mem
 
 打开`/home/auto_resize_script.sh`在末尾添加以下字段重扫pci总线进一步确保`wlan驱动`正确加载
 
