@@ -35,18 +35,18 @@
 
 根据主线社区的建议，将GPU固件加入initrmfs中来确保屏幕能够正常工作；`/usr/share/initramfs-tools/hooks/qcom-firmware`
 
-        #!/bin/sh
-        set -e
-        
-        PREREQS=""
-        case $1 in
-            prereqs) echo "${PREREQS}"; exit 0;;
-        esac
-        version=0
-        
-        . /usr/share/initramfs-tools/hook-functions
-        
-        add_firmware qcom/msm8996/gemini/a530_zap.mbn
-        add_firmware qcom/a530_pm4.fw
-        add_firmware qcom/a530_pfp.fw
-        add_firmware qcom/a530v3_gpmu.fw2
+    #!/bin/sh
+    set -e
+
+    PREREQS=""
+    case $1 in
+        prereqs) echo "${PREREQS}"; exit 0;;
+    esac
+    version=0
+
+    . /usr/share/initramfs-tools/hook-functions
+
+    add_firmware qcom/msm8996/gemini/a530_zap.mbn
+    add_firmware qcom/a530_pm4.fw
+    add_firmware qcom/a530_pfp.fw
+    add_firmware qcom/a530v3_gpmu.fw2
