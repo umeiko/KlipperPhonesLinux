@@ -1,4 +1,4 @@
-# 小米5注意事项
+# 小米5移植过程中遇到的问题和解决方案
 ## 强解手机的修复显示
 如果强解BL锁，会导致gpu驱动无法加载，实测可通过屏蔽GPU解决
 
@@ -16,7 +16,7 @@
 
 即可正常使用屏幕
 
-## 修复启动时随机黑屏/随机没有网络的情况
+## 修复启动时随机没有网络的情况
 打开`/etc/modprobe.d/touchscreens-workaround.conf`添加以下字段强行规定网络驱动加载顺序修复网络问题
 
         softdep drm pre: panel_jdi_fhd_r63452
@@ -32,7 +32,14 @@
     sleep 30
     echo 1 > /sys/class/pci_bus/0000\:01/rescan
 
-## 某些小米5屏幕黑屏，是因为屏幕型号问题
+## 修复随机出现的启动卡米，黑屏情况
+定位到是因为`adsp`加载与其它内核组件冲突引起的。因为小米Note2也有[同样的问题](https://gitlab.com/postmarketOS/pmaports/-/merge_requests/2283)。
+移除`adsp`驱动即可。
+
+    sudo rm /lib/firmware/qcom/msm8996/gemini/adsp.mbn
+
+
+## 某些小米5屏幕黑屏始终无法点亮，是因为屏幕型号问题
 `lgd-fhd-td4322`暂时不存在于[msm8996屏幕驱动](https://gitlab.com/msm8996-mainline/linux/-/tree/msm8996-staging/drivers/gpu/drm/panel
 )中
 [小米官方开源仓库](https://github.com/MiCode/Xiaomi_Kernel_OpenSource/commit/c0379aae3d784d78f304ae6de13ce522f4bbd4cc#diff-b79aee18a3f77cb7324a7b95f5b43684ac64b89299e15b0af894371eff19a2e8R89)中可以找到这款芯片的存在。
