@@ -94,7 +94,8 @@ Turning your old phones into high-performance Klipper host machine running on De
 - [`lsusb` shows no reaction](https://github.com/umeiko/KlipperPhonesLinux/tree/main/PCB)
 - [rotate the screen](https://github.com/umeiko/KlipperPhonesLinux/blob/main/Docs/Q%26A/ROTATE_THE_SCREEN.md)
 - [compile your own Linux kernel](https://gitee.com/meiziyang2023/ubuntu-ports-xiaomi-625-phones)
-- [I want to uninstall the Klipper related components to get a clean Ubuntu system.](https://github.com/umeiko/KlipperPhonesLinux/blob/main/Docs/Q%26A/REMOVE_KLIPPER.md)
+- [Uninstall the Klipper related components.](https://github.com/umeiko/KlipperPhonesLinux/blob/main/Docs/Q%26A/REMOVE_KLIPPER.md)
+- [Setup multiple printers on KlipperScreen]()
 
 ## Acknowledgements
 - [PostmarketOS](https://postmarketos.org/)
