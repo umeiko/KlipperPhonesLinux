@@ -6,7 +6,7 @@ Turning your old phones into high-performance Klipper host machine running on De
 ![wt88047](pictures/2.jpg)
 
 ## Features
-- 💻 Native Linux system, supporting `Ubuntu 20.04` distribution with excellent compatibility
+- 💻 Native Linux `Ubuntu 20.04` distribution, with `CAN` compatibility
 - 📱Equipped with a high-resolution capacitive touchscreen, providing an outstanding appearance
 - 🚀 Low cost with exceptional CPU performance
 - ⚡ DC supply, Power on simultaneously with your 3D printer
