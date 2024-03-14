@@ -40,10 +40,32 @@
 
 
 ## 某些小米5屏幕黑屏始终无法点亮，是因为屏幕型号问题
-`lgd-fhd-td4322`暂时不存在于[msm8996屏幕驱动](https://gitlab.com/msm8996-mainline/linux/-/tree/msm8996-staging/drivers/gpu/drm/panel
-)中
+`lgd-fhd-td4322`暂时不存在于[msm8996屏幕驱动](https://gitlab.com/msm8996-mainline/linux/-/tree/msm8996-staging/drivers/gpu/drm/panel)中
 [小米官方开源仓库](https://github.com/MiCode/Xiaomi_Kernel_OpenSource/commit/c0379aae3d784d78f304ae6de13ce522f4bbd4cc#diff-b79aee18a3f77cb7324a7b95f5b43684ac64b89299e15b0af894371eff19a2e8R89)中可以找到这款芯片的存在。
 [lgd-fhd-td4322下游设备树](https://github.com/MiCode/Xiaomi_Kernel_OpenSource/blob/c0379aae3d784d78f304ae6de13ce522f4bbd4cc/arch/arm/boot/dts/qcom/dsi-panel-lgd-fhd-td4322-cmd.dtsi)
+
+### 解决方案：
+
+- `msm8916-mainline linux-panel-drivers`
+- `lk2nd/device/dts/msm8996/msm8996-xiaomi-capricorn.dts`
+
+
+        // SPDX-License-Identifier: BSD-3-Clause
+        #include <skeleton64.dtsi>
+        #include <lk2nd.dtsi>
+        
+        / {
+                model = "Xiaomi Mi 5s";
+                qcom,msm-id = <305 0x10000>;
+                qcom,board-id = <37 0>;
+                //qcom,pmic-id = <0x20009 0x10013 0x0 0x0>;
+        };
+        
+        &lk2nd {
+                model = "Xiaomi Mi 5s";
+                compatible = "xiaomi,capricorn";
+        };
+
 ## 不这么做也可以驱动，这里仅做记录
 根据主线社区的建议，将GPU固件加入initrmfs中来确保屏幕能够正常工作；`/usr/share/initramfs-tools/hooks/qcom-firmware`
 
