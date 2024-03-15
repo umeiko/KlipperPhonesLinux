@@ -34,7 +34,7 @@
 
 ### 有人认为`qca`蓝牙启动影响了`ath`驱动的加载导致无网络
 参考[这个讨论](https://bbs.archlinux.org/viewtopic.php?id=281292)
-尝试编译了禁用蓝牙的内核
+尝试编译了禁用蓝牙的内核 *无效，看来不是这个原因*
 
         Symbol: BT_HCIUART_QCA [=n]                                                                                                                                                      │  
           │ Type  : bool                                                                                                                                                                 │  
