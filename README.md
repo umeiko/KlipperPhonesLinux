@@ -89,7 +89,7 @@ Turning your old phones into high-performance Klipper host machine running on De
 
 ## Common Issues and Solutions:
 - [Enabling and configuring CAN](https://github.com/umeiko/KlipperPhonesLinux/blob/main/Docs/Q%26A/CAN_BUS.md)
-- [Connecting console with usb cable]()
+- [Connecting console with usb cable](https://github.com/umeiko/KlipperPhonesLinux/blob/main/Docs/Q%26A/USB_CONSOLE.md)
 - Error during homing, 'timer too close'
   - If you have a Qualcomm Snapdragon 625 model, disable CPU temperature monitoring in Klipper settings.
 - [`lsusb` shows no reaction](https://github.com/umeiko/KlipperPhonesLinux/tree/main/PCB)
