@@ -32,6 +32,23 @@
     sleep 30
     echo 1 > /sys/class/pci_bus/0000\:01/rescan
 
+### 有人认为`qca`蓝牙启动影响了`ath`驱动的加载导致无网络
+参考[这个讨论](https://bbs.archlinux.org/viewtopic.php?id=281292)
+尝试编译了禁用蓝牙的内核
+
+        Symbol: BT_HCIUART_QCA [=n]                                                                                                                                                      │  
+          │ Type  : bool                                                                                                                                                                 │  
+          │ Defined at drivers/bluetooth/Kconfig:228                                                                                                                                     │  
+          │   Prompt: Qualcomm Atheros protocol support                                                                                                                                  │  
+          │   Depends on: NET [=y] && BT [=n] && BT_HCIUART [=n] && BT_HCIUART_SERDEV [=n]                                                                                               │  
+          │   Location:                                                                                                                                                                  │  
+          │     Main menu                                                                                                                                                                │  
+          │       -> Networking support (NET [=y])                                                                                                                                       │  
+          │ (1)     -> Bluetooth subsystem support (BT [=n])                                                                                                                             │  
+          │           -> Bluetooth device drivers                                                                                                                                        │  
+          │ Selects: BT_HCIUART_H4 [=n] && BT_QCA [=n]
+          
+
 ## 修复随机出现的启动卡米，黑屏情况
 定位到是因为`adsp`加载与其它内核组件冲突引起的。因为小米Note2也有[同样的问题](https://gitlab.com/postmarketOS/pmaports/-/merge_requests/2283)。
 移除`adsp`驱动即可。
