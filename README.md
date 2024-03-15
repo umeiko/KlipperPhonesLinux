@@ -89,11 +89,12 @@ Turning your old phones into high-performance Klipper host machine running on De
 
 ## Common Issues and Solutions:
 - [Enabling and configuring CAN](https://github.com/umeiko/KlipperPhonesLinux/blob/main/Docs/Q%26A/CAN_BUS.md)
+- [Connecting console with usb cable]()
 - Error during homing, 'timer too close'
   - If you have a Qualcomm Snapdragon 625 model, disable CPU temperature monitoring in Klipper settings.
 - [`lsusb` shows no reaction](https://github.com/umeiko/KlipperPhonesLinux/tree/main/PCB)
-- [rotate the screen](https://github.com/umeiko/KlipperPhonesLinux/blob/main/Docs/Q%26A/ROTATE_THE_SCREEN.md)
-- [compile your own Linux kernel](https://gitee.com/meiziyang2023/ubuntu-ports-xiaomi-625-phones)
+- [Rotate the screen](https://github.com/umeiko/KlipperPhonesLinux/blob/main/Docs/Q%26A/ROTATE_THE_SCREEN.md)
+- [Compile your own Linux kernel](https://gitee.com/meiziyang2023/ubuntu-ports-xiaomi-625-phones)
 - [Uninstall the Klipper related components.](https://github.com/umeiko/KlipperPhonesLinux/blob/main/Docs/Q%26A/REMOVE_KLIPPER.md)
 - [Setup multiple printers on KlipperScreen](https://github.com/umeiko/KlipperPhonesLinux/blob/main/Docs/Q%26A/MULTIPLE_PRINTERS_ONSCREEN.md)
 
