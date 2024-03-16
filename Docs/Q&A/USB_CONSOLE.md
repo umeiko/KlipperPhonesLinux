@@ -1,4 +1,4 @@
-## Entering Linux console whith usb cabel
+## Entering Linux console via usb cabel
 
 1. Connecting your KlipperOS phone using usb cable to your computer.
 2. Check your `DeviceManager` for Serial Ports:
