@@ -16,6 +16,16 @@
 
 即可正常使用屏幕
 
+## PostmarketOS中的GPU固件与国内的固件不一致导致黑屏
+从小米官方刷机包中提取固件即可完成修复。
+
+1. 将官方刷机包中的`system.img`提取，`simg2img`后再`mount`查看包内文件。
+2. 在`/mnt/vendor/firmware`中找到`a530_zap.xxx`，即为加密的下游gpu固件。
+3. 利用`https://github.com/linux-msm/pil-squasher`将其打包为主线使用的gpu固件。
+
+       pil-squasher a530_zap.mbn a530_zap.mdt
+5. `a530_zap.mbn`即为所需的加密固件。
+
 ## 修复启动时随机没有网络的情况
 打开`/etc/modprobe.d/touchscreens-workaround.conf`添加以下字段强行规定网络驱动加载顺序修复网络问题
 
@@ -34,7 +44,8 @@
 
 ### 有人认为`qca`蓝牙启动影响了`ath`驱动的加载导致无网络
 参考[这个讨论](https://bbs.archlinux.org/viewtopic.php?id=281292)
-尝试编译了禁用蓝牙的内核 *无效，看来不是这个原因*
+尝试编译了禁用蓝牙的内核 
+*无效，看来不是这个原因*
 
         Symbol: BT_HCIUART_QCA [=n]                                                                                                                                                      │  
           │ Type  : bool                                                                                                                                                                 │  
@@ -47,6 +58,7 @@
           │ (1)     -> Bluetooth subsystem support (BT [=n])                                                                                                                             │  
           │           -> Bluetooth device drivers                                                                                                                                        │  
           │ Selects: BT_HCIUART_H4 [=n] && BT_QCA [=n]
+####最终发现是电池老化导致的，换一块电池就好了        
           
 
 ## 修复随机出现的启动卡米，黑屏情况
