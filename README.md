@@ -100,13 +100,13 @@ Turning your old phones into high-performance Klipper host machine running on De
 
 ## Acknowledgements
 - [PostmarketOS](https://postmarketos.org/)
-  - A real Linux distribution for phones and other mobile devices
+  - Real Linux distribution for phones and other mobile devices
 - [Klipper](https://github.com/Klipper3d/)
-  - Klipper is a 3d-Printer firmware. It combines the power of a general purpose computer with one or more micro-controllers.
+  - Klipper 3d-Printer firmware. It combines the power of a general purpose computer with one or more micro-controllers.
 - [moonraker](https://github.com/Arksine/moonraker)
   - API Web Server for Klipper
 - [KlipperScreen](https://github.com/KlipperScreen/KlipperScreen)
-  - A touchscreen GUI that interfaces with Klipper via Moonraker.
+  - Touchscreen GUI that interfaces with Klipper via Moonraker.
 - [fluidd](https://github.com/fluidd-core/fluidd)
-  - A free and open-source Klipper web interface for managing your 3d printer.
+  - Free and open-source Klipper web interface for managing your 3d printer.
 
