@@ -15,6 +15,9 @@
     EndSection
 
 即可正常使用屏幕
+给自己制作的boot.img签名从而利用9008刷入：
+
+`https://github.com/Vaimibao/mkbootimage-and-bootsigner`
 
 ## PostmarketOS中的GPU固件与国内的固件不一致导致黑屏
 从小米官方刷机包中提取固件即可完成修复。
