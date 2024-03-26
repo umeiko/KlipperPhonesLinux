@@ -92,6 +92,7 @@ Turning your old phones into high-performance Klipper host machine running on De
 - [Connecting console with usb cable](https://github.com/umeiko/KlipperPhonesLinux/blob/main/Docs/Q%26A/USB_CONSOLE.md)
 - Error during homing, 'timer too close'
   - If you have a Qualcomm Snapdragon 625 model, disable CPU temperature monitoring in Klipper settings.
+    - Found if `sensor_type: temperature_mcu` or `sensor_type: temperature_host` in your configuration files, then removes them.
 - [`lsusb` shows no reaction](https://github.com/umeiko/KlipperPhonesLinux/tree/main/PCB)
 - [Rotate the screen](https://github.com/umeiko/KlipperPhonesLinux/blob/main/Docs/Q%26A/ROTATE_THE_SCREEN.md)
 - [Compile your own Linux kernel](https://github.com/umeiko/KlipperPhonesLinux/tree/main/LinuxKernels)
