@@ -1,7 +1,11 @@
 # KlipperPhonesLinux
-Building an Klipper Machine Host for a 3D Printer Based on Native Linux System Adapted for Mobile Phones
-
 让你的旧手机变为高性能Linux系统的Klipper上位机
+
+- 此文档将手机变为`Klipper`上位机，但是想要变成你打印机的控制器，还需要一些工作：
+  - 使用`otg`转接头将手机与打印机主板通过USB连接 (没有otg转接头是不行的)
+  - 打印机主板刷机为`Klipper`系统
+  - 手机中配置好主板的文件
+
 ![wt88047](pictures/1.jpg)
 ![wt88047](pictures/2.jpg)
 
