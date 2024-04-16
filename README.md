@@ -66,7 +66,7 @@ Turning your old phones into high-performance Klipper host machine running on De
           sudo apt update
           sudo apt install avrdude gcc-avr binutils-avr avr-libc stm32flash libnewlib-arm-none-eabi gcc-arm-none-eabi binutils-arm-none-eabi pkg-config
 
-    - Refer to [Klipper documentation](https://www.klipper3d.org/Installation.html) to compile and install Klipper firmware for your motherboard.
+    - Refer to [Klipper documentation](https://www.klipper3d.org/Installation.html) to compile and install Klipper firmware for your Printer's mainboard.
 
 - Configure the 3D printer's configuration file
   - Obtain the configuration file from your printer motherboard supplier or find it in the [Klipper repository](https://github.com/Klipper3d/klipper/tree/master/config).
