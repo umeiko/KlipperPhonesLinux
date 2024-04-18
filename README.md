@@ -30,6 +30,7 @@ Turning your old phones into high-performance Klipper host machine running on De
 - Xiaomi Note 2 ([xiaomi-scorpio](https://github.com/umeiko/KlipperPhonesLinux/blob/main/Docs/msm8996.md))
 - Xiaomi 5 ([xiaomi-gemini](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi-gemini))
 - Xiaomi 5s ([xiaomi-capricorn](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi-gemini))
+- Xiaomi 5s plus ([xiaomi-capricorn](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi-gemini))
 - Huawei Maimang 5 ([huawei milan](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Huawei_milan))
 - Huawei G9 (Plus) ([huawei milan](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Huawei_milan))
 - Huawei Nova (Plus) ([huawei milan](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Huawei_milan))
@@ -40,7 +41,7 @@ Turning your old phones into high-performance Klipper host machine running on De
 - [Xiaomi Note 2](https://github.com/umeiko/KlipperPhonesLinux/blob/main/Docs/msm8996.md)
 - [Xiaomi Redmi 4x](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_santoni)
 - [Huawei Maimang 5 / G9 (Plus) / Nova (Plus)](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Huawei_milan)
-- [Xiaomi 5 / 5s](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi-gemini)
+- [Xiaomi 5 / 5s / 5s plus](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi-gemini)
 
 ## Quick Start After Flashing
 - Connect to the terminal
