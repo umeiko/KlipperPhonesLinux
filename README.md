@@ -36,6 +36,14 @@ Turning your old phones into high-performance Klipper host machine running on De
 - Huawei Nova (Plus) ([huawei milan](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Huawei_milan))
 - oneplus 3 ([oneplus3](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi-gemini))
 - oneplus 3t ([oneplus3t](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi-gemini))
+- Asus ZenFone 2 Laser ZE550KL (720p) ([asus-z00l](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_Redmi2))
+- Samsung Galaxy A3 (2015) ([samsung-a3](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_Redmi2))
+- Samsung Galaxy A5 ([samsung-a5](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_Redmi2))
+- Samsung Galaxy E5 ([samsung-e5](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_Redmi2))
+- Samsung Galaxy E7 ([samsung-e7](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_Redmi2))
+- Samsung Galaxy Grand Max ([samsung-grandmax](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_Redmi2))
+- Samsung Galaxy J5 (2015) ([samsung-j5](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_Redmi2))
+- Samsung Galaxy S4 Mini Value Edition ([samsung-serranove](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_Redmi2))
 - No model for your device? No problem! [Porting Tutorial](https://github.com/umeiko/KlipperPhonesLinux/blob/main/LinuxKernels)
 ## Flashing Instructions:
 - [Xiaomi Redmi 2](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_Redmi2)
@@ -45,6 +53,7 @@ Turning your old phones into high-performance Klipper host machine running on De
 - [Huawei Maimang 5 / G9 (Plus) / Nova (Plus)](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Huawei_milan)
 - [Xiaomi 5 / 5s / 5s plus](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi-gemini)
 - [oneplus 3 / 3t](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi-gemini)
+- [Samsung qcom410 devices](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_Redmi2)
 
 ## Quick Start After Flashing
 - Connect to the terminal
