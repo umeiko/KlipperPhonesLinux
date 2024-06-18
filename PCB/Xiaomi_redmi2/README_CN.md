@@ -15,3 +15,7 @@
 ![BAT](./bat.png)
 - 将手机拆开，将尾插部分的排线插在板上。[操作视频](https://www.bilibili.com/video/BV1nw411175i/)。
 ![btb](./btb.png)
+
+成品链接：
+
+![image](https://github.com/umeiko/KlipperPhonesLinux/assets/58870893/f3e903f3-68fc-4828-bb69-237e35efbf0d)
