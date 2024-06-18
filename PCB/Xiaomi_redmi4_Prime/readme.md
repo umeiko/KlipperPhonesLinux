@@ -23,3 +23,7 @@
 - Disassemble the phone, plug the cable from the tail plug into the board.
 
 [LCEDA-shiqi](https://oshwhub.com/sqkj/red-rice-4-direct-power-supply-hub).
+
+You can buy a modfied redmi 4 prime:
+
+![image](https://github.com/umeiko/KlipperPhonesLinux/assets/58870893/4b7ee334-f6a5-4674-bb31-bbbfe76ce297)
