@@ -18,3 +18,7 @@
 [Operation video](https://www.bilibili.com/video/BV1nw411175i/).
 
 ![btb](./btb.png)
+
+You can buy a modified redmi-2 from:
+
+![image](https://github.com/umeiko/KlipperPhonesLinux/assets/58870893/aa62029d-c15b-4e67-a0bc-8c14a93b19be)
