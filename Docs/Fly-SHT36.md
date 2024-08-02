@@ -160,4 +160,5 @@ canbus_uuid: 0ef7960f64d6     #将读取到的uuid填写到此处
 ```
 
 现在就完成了与can板的基本连接，接下来的流程都为常规配置，和Fly售后交流即可。
-[参考](https://mellow.klipper.cn/#/board/fly_sht_v2/cfg)
+[参考这里](https://mellow.klipper.cn/#/board/fly_sht_v2/cfg)
+![image](https://github.com/user-attachments/assets/2877dfbf-319d-49fd-af28-3ae97d7fcc0a)
