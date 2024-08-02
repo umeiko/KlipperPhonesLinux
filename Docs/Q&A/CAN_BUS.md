@@ -1,5 +1,6 @@
 # What is a CAN Board?
 [中文文档](./CAN_BUS_CN.md)
+[连接FLY-SHT36教程](https://github.com/umeiko/KlipperPhonesLinux/blob/main/Docs/Fly-SHT36.md)
 - A CAN board can be understood as another sub-board of the printer, which is at the same level as your mainboard. The difference from the mainboard is that the CAN board communicates with the upper computer using the CAN protocol, while the regular mainboard uses the UART protocol to communicate with the upper computer.
 ```
 LINUX Host
