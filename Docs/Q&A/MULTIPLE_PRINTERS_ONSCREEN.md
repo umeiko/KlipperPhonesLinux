@@ -1,5 +1,13 @@
 # Edit the KlipperScreen config file.
-`sudo nano /root/KlipperScreen.conf`
+```
+sudo nano /root/KlipperScreen.conf`
+```
+or
+
+```
+sudo nano /root/.config/KlipperScreen/KlipperScreen.conf
+```
+
 
     [main]
     default_printer: Local
