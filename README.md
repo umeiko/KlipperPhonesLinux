@@ -1,5 +1,6 @@
 # KlipperPhonesLinux
 [中文文档](./README_CN.md)
+[刷机后连接主板的详细指南](https://www.bilibili.com/opus/981736305921622020)
 
 Turning your old phones into high-performance Klipper host machine running on Debian Linux!
 ![wt88047](pictures/1.jpg)
