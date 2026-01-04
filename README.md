@@ -29,6 +29,7 @@ Turning your old phones into high-performance Klipper host machine running on De
 - Xiaomi Redmi Y2 ([xiaomi-ysl](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_msm8953_Phones))
 - Xiaomi Redmi 4x ([xiaomi-santoni](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_santoni))
 - Xiaomi Note 2 ([xiaomi-scorpio](https://github.com/umeiko/KlipperPhonesLinux/blob/main/Docs/msm8996.md))
+- Xiaomi Mi 4 ([xiaomi-cancro](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/xiaomi-mi4))
 - Xiaomi 5 ([xiaomi-gemini](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi-gemini))
 - Xiaomi 5s ([xiaomi-capricorn](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi-gemini))
 - Xiaomi 5s plus ([xiaomi-natrium](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi-gemini))
