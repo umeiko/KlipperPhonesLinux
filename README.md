@@ -49,6 +49,7 @@ Turning your old phones into high-performance Klipper host machine running on De
 - Samsung Galaxy S4 Mini Value Edition ([samsung-serranove](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/Xiaomi_Redmi2))
 - Xiaomi Mi 9T / Redmi K20 ([xiaomi-Davinci](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/xiaomi-davinci-ubuntu24.04))
 - Redmi 4a ([xiaomi-rolex](https://github.com/umeiko/KlipperPhonesLinux/releases/tag/xiaomi-rolex))
+- Alots of MSM89x7 Xiaomi Phones (redmi 4 standard，redmi 5a，redmi 4a，redmi 4x) [Baidu Net Disk](https://pan.baidu.com/s/16DJP7HReccIwsrfNuDRxtQ?pwd=tmx6)
 - No model for your device? No problem! [Porting Tutorial](https://github.com/umeiko/KlipperPhonesLinux/blob/main/LinuxKernels) 
 
 ## Flashing Instructions:
